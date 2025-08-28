@@ -21,6 +21,19 @@ int main() {
         cout << "Reduce fryer heat before taking the third reading." << endl;
     } else if (difference < 10) {
         cout << "Increase the Fryer heat before taking the third reading." << endl;
+
+      
+    
+    cout << "Enter the third temperature reading: ";
+    cin >> temp3;
+    
+    // Check final temperature range for frying
+    if (temp3 >= 150 && temp3 <= 190) {
+        cout << "You may start frying the Magwinys!" << endl;
+    } else {
+        cout << "Oil is not ready for frying!" << endl;
+    
+}
    
     
   
