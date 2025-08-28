@@ -12,5 +12,15 @@ int main() {
     
     cout << "Enter the second temperature reading: ";
     cin >> temp2;
+
+   
+    // Check temperature difference between first and second reading
+    int difference = temp2 - temp1;
+    
+    if (difference > 50) {
+        cout << "Reduce fryer heat before taking the third reading." << endl;
+    } else if (difference < 10) {
+        cout << "Increase the Fryer heat before taking the third reading." << endl;
+   
     
   
